@@ -11,9 +11,7 @@ body {
   padding: 0 70px;
   font-size: 20px;
   font-weight: 900;
-  border-style: solid;
-  border-width: 10px;
-  border-color: black;
+  
   
   
 }
@@ -45,6 +43,8 @@ li {
 }
 
 .text {
+    color:#E5E7EB;
+    display: flex;
     
 }
 
@@ -100,10 +100,10 @@ li {
 
 .author {
    font-weight: bold;
-   display: flex;
-   align-items: flex-end;
-   margin-right: 100px;
-   flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
 }
 
 .bottom-header{
@@ -111,14 +111,14 @@ li {
 }
 
 
-.bottom-par{
-    color:#E5E7EB;
+.bottom-par {
+    color: #E5E7EB;
     display: flex;
     align-items: center;
 }
 
 .bottom-sign {
-    display: flex;
+    
    
 
 }
@@ -154,4 +154,10 @@ padding: 30px;
 button {
    
    
+}
+
+.blue-header {
+    font-weight:bold;
+    color: #E5E7EB;
+    font-size:20px;
 }
