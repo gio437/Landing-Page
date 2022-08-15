@@ -1,30 +1,29 @@
 body{
     background-color: #1F2937;
+    
 }
 
 
 .first-block{
     margin-bottom: 40px;
-   
-}
-
-.right{
     
+   
 }
 
 
 .header{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
     color: #F9FAf8;
     font-size: 24px;
-    flex-grow: 5;
+   
+   
 }
 
 .right{
     color: #E5E7EB;
    font-size: 18px;
-   margin-left: 425px;
+
 }
 
 a{
@@ -76,4 +75,131 @@ button{
 .third-block{
     background-color: white;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.second-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+    
+
+.master {
+        background-color: white;
+        padding: 10px;
+        display: flex;
+      justify-content: space-around;
+        gap: 10px;
+        flex: 0 3 0;
+        flex-shrink: 5;
+        
+}                           /* ^these need to be switched */
+
+.box-master{
+    background-color: white;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.box{
+    border-style: solid;
+    border-width: 3px;
+    border-color:#3882F6;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 60px;
+    margin-bottom: 0;
+
+
+}
+
+
+.lower{
+    color: gray;
+   margin-bottom: 40px;
+}
+
+.fourth-block{
+    background-color: #E5E7EB;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.par2{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.thor{
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: flex-end;
+    color:  #1F2937;
+}
+
+.fith-block{
+    background-color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.hello{
+    background-color: #3882F6;
+    padding: 30px;
+    flex-grow: 8;
+   
+}
+
+.call{
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   margin-bottom: 2px;
+}
+
+
+.par3{
+    color: white;
+    display: flex;
+    gap: 20px;
+   
+}
+
+
+.sign{
+ border-style: solid;
+ border-width: 2px;
+ border-color: white;
+ border-radius: 10px;
+ width: 100px;
+ text-align: center;
+ 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.odin{
+  color:#E5E7EB;
 }
